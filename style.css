@@ -7,31 +7,35 @@
 }
 
 header {
-    margin: 87px 20px 47px 42px;
+    margin: 40px 20px 47px 42px;
 }
 
 .link-header {
     cursor: pointer;
     margin-right: 25px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 21px;
-    margin-left: 151px;
+    margin-left: 165px;
 }
 
 .button-header {
-    background: #6FBF44;
+    background: #0fed16;
     width: 124px;
-    height: 51px;
-    border-radius: 6px;
+    height: 65px;
+    border-radius: 100px;
     border: 1px;
     cursor: pointer;
+    font-size: 20px;
 }
 
-.img-logo {
-    display: inline-block;
-    margin-left: 21px;
-    margin-bottom: 100px;
+.img-tatum {
+position:relative;
+left: 650px;
+bottom: 800px;
+width: 750px;
+height: 850px;
+
 }
 
 section {
@@ -41,43 +45,90 @@ section {
 
 .titulo {
     font-weight: 900;
-    font-size: 62px;
-    line-height: 82px;
+    font-size: 65px;
+    line-height: 80px;
     letter-spacing: 0.6px;
     color: #0fed16;
-    width: 700px;
-    margin-left: 150px;
-
-
+    width: 690px;
+    text-align: center;
+    margin-left: 370px;
+    margin-bottom: 100px;
 }
 
 p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 33px;
-    width: 700px;
-    margin-left: 150px;
+    font-size: 600;
+    line-height: 50px;
+    width: 500px;
+    margin-left: 50px;
+
 
 }
 
 .button-mais {
-    background: #6FBF44;
+    background: #0fed16;
     width: 124px;
     height: 51px;
-    border-radius: 6px;
+    border-radius: 50px;
     border: 1px;
     cursor: pointer;
     margin-left: 150px;
 
 }
 
-div {
-    margin-bottom: 300px;
 
+
+h2{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 0.6px;
+    color: #0fed16;
+    width: 690px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
+h3{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 0.6px;
+    color: #0fed16;
+    width: 690px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+h1::first-letter{color: aliceblue;}
+h2::first-letter{color: aliceblue;}
+h3::first-letter{color: aliceblue;}
+
+
+
+
+
+
+
+a:hover {color: aliceblue;    
+font-size: 30px;
+color: #d1e8dc;}
+
+a:visited {color: rebeccapurple;}
+a:active {color: #0fed16;}
+img:hover {scale: 1.1;}
+button:hover {background-color: white;}
+button:active {color: #0fed16}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:610px) {
-    header{
+    header {
         display: none;
     }
 
