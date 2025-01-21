@@ -8,55 +8,108 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <img src="./img/img-fundo.webp" alt="img-fundo" class="img-fundo">
+
     <header>
-        <a class="link-header">products</a>
+        <a class="link-header"onclick="showProducts()">products</a>
         <a class="link-header">company</a>
         <a class="link-header">blog</a>
         <a class="link-header">log in</a>
         <button class="button-header">sing up</button>
     </header>
 
-        <section>
-
-
-    
-                <h1 class="titulo">Jason Tatum, peça chave para o Boston Celtics!</h1>
-
-
-    <h2>Craque modesto!</h2>
-
-    <p class="p-h2">Que Jason Tatum é um dos maiores jogadores da liga todo mundo já sabem, é a preparação para chegar
-        nesse alto nivel, o interessante do jogador é sua modestia, mesmo salvando o time por varias vezes
-        ao decorrer do campeonato, ele da todo credito para a equipe também, que sempre o ajuda da mesma
-        forma!</p>
-
-    <br>
-
-    <h3>Parceiro de equipe</h3>
-
-    <p class="p-h3">Jaylen Brown seu braço direito de equipe concorda, a equipe evoluiu muito desde a derrota no final
-        das palyoffs na temporada 22-23, e também enfatiza a importancia de outras peças chaves nessa
-        campanha gloriosa, "a chegada de jrue e kristaps nos deixou completos"disse o ala armador do boston!
-    </p>
-
-            <img src="./img/jasontaum.jpg" class="img-tatum">
-
-            <button class="button-mais">saiba mais</button>
-        </section>
+    <section>
 
 
 
+        <h1 class="titulo">Jason Tatum, key player for the Boston Celtics!</h1>
+
+
+        <h2>Modest crack!</h2>
+
+        <p class="p-jason">Everyone already knows that Jason Tatum is one of the greatest players in the league, preparation for
+            to arrive
+            At this high level, the interesting thing about the player is his modesty, even though he saved the team several times
+            During the championship, he gives all the credit to the team as well, which always helps him in the same way.
+            shape!</p>
+
+        <img src="./img/img-jason-slam.jpg" alt="img-tatum" class="tatum-img">
+        <img src="./img/jaylen-img-revista.jpg" alt="jaylen-img" class="jaylen-revista">
+        <br>
+
+        <h3>Team Partner</h3>
+
+        <p class="p-jaylen">Jaylen Brown, your team's right-hand man, agrees, the team has evolved a lot since the defeat in
+            end
+            of the palyoffs in the 22-23 season, and also emphasizes the importance of other key pieces in this
+            glorious campaign, "the arrival of jrue and kristaps made us complete" said the boston shooting guard!
+        </p>
+    </section>
 
 
 
 
+
+
+
+
+    <div class="products-div">
+        <button class="ver-mais">see more</button>
+        <div class="h4-promotion">
+            <h4>exclusive products</h4>
+        </div>
+
+        <div class="box-products">
+            <p class="titulo-bones">caps</p>
+            <button class="button-img">
+                <img src="./img/bone-boston-img-Photoroom.png" alt="cap-img" class="image-products-cap">
+            </button>
+        </div>
+
+
+        <div class="">
+            <p class="titulo-meias">socks</p>
+            <button class="button-img">
+                <img src="./img/socks-bostob-img-Photoroom.png" alt="socks-img" class="image-products-socks">
+            </button>
+
+        </div>
+
+
+        <div class="">
+            <p class="titulo-regata">t-shirt</p>
+            <button class="button-img">
+                <img src="./img/jason-regata-removebg-preview.png" alt="regata-img" class="image-products-regata">
+            </button>
+        </div>
+
+
+        <div class="">
+            <p class="titulo-shoes">shoes</p>
+            <button class="button-img"> 
+                <img src="./img/tenis-jason-img-Photoroom.png" alt="shoes-img" class="image-products-shoes">
+            </button>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="mascara-modal" onclick="hideProducts()"></div>
+
+
+
+
+    <script src="./scripts.js"></script>
 </body>
 
 </html>

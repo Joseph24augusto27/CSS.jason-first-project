@@ -1,66 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+
 * {
-    font-family: 'poppins', sans-serif;
+    font-family: "Rubik Mono One", serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: darkolivegreen;
+    width: 100%;
+    height: 0%;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
 }
 
 header {
-    margin: 40px 20px 47px 42px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.img-fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height:  300vh;
+    object-fit: cover;
 }
 
 .link-header {
+    position: relative;
+    padding-left: 115px;
+    font-size: 30px;
+    line-height: 3;
     cursor: pointer;
-    margin-right: 25px;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 21px;
-    margin-left: 165px;
+    font-weight: 600;
+    color: aliceblue;
 }
 
 .button-header {
     background: #0fed16;
-    width: 124px;
-    height: 65px;
+    margin-left: 70px;
     border-radius: 100px;
     border: 1px;
     cursor: pointer;
-    font-size: 20px;
-}
-
-.img-tatum {
-position:relative;
-left: 650px;
-bottom: 800px;
-width: 750px;
-height: 850px;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
 
 }
 
-section {
-    display: inline-block;
+.tatum-img {
+    position: relative;
+    margin-left: 850px;
+    bottom: 490px;
+    height: 700px;
+    width: 600px;
 }
+
+.jaylen-revista{
+    width: 600px;
+    height: 700px;
+    position: relative;
+    bottom: 385px;
+    left: 850px;
+}
+
+
 
 
 .titulo {
     font-weight: 900;
-    font-size: 65px;
-    line-height: 80px;
-    letter-spacing: 0.6px;
     color: #0fed16;
-    width: 690px;
     text-align: center;
-    margin-left: 370px;
-    margin-bottom: 100px;
+    width: 900px;
+    height: 120px;
+    position: relative;
+    margin-left: 315px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 35px;
 }
 
-p {
+.p-jason {
     font-size: 600;
     line-height: 50px;
-    width: 500px;
+    width: 700px;
+    height: 400px;
     margin-left: 50px;
-
+    color: rgb(0, 226, 90);
+    position: relative;
 
 }
 
@@ -73,11 +103,12 @@ p {
     cursor: pointer;
     margin-left: 150px;
 
+
 }
 
 
 
-h2{
+h2 {
     font-weight: 900;
     font-size: 40px;
     line-height: 80px;
@@ -85,10 +116,10 @@ h2{
     color: #0fed16;
     width: 690px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 125px;
 }
 
-h3{
+h3 {
     font-weight: 900;
     font-size: 40px;
     line-height: 80px;
@@ -96,12 +127,132 @@ h3{
     color: #0fed16;
     width: 690px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 1050px;
+    margin-bottom: -21px;
 }
 
-h1::first-letter{color: aliceblue;}
-h2::first-letter{color: aliceblue;}
-h3::first-letter{color: aliceblue;}
+.p-jaylen {
+    font-size: 600;
+    line-height: 50px;
+    width: 700px;
+    height: 400px;
+    margin-left: 50px;
+    color: rgb(0, 226, 90);
+    position: relative;
+    bottom: 900px;
+}
+
+
+.products-div {
+    width: 620px;
+    height: 650px;
+    background-color: #fcfffc;
+    position: absolute;
+    top: 20px;
+    left: -620px;         /*left:400*/
+    display: inline-block;
+    border: 5px solid #00ff08;
+    border-radius: 10px;
+    transition: left 1s linear;
+    
+}
+
+h4 {
+    color: #00ff08;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.image-products-cap {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 385px;
+    left: -145px;
+    cursor: pointer;
+}
+
+.image-products-socks {
+    width: 200px;
+    height: 175px;
+    position: relative;
+    top: 170px;
+    left: -145px;
+    cursor: pointer;
+}
+
+
+.image-products-regata {
+    width: 215px;
+    height: 170px;
+    position: relative;
+    left: 145px;
+    top: 170px;
+    cursor: pointer;
+}
+
+.image-products-shoes {
+    width: 220px;
+    height: 260px;
+    position: relative;
+    left: 145px;
+    top: 330px;
+    cursor: pointer;
+
+}
+
+.titulo-bones {
+    position: relative;
+    top: 555px;
+    left: 50px;
+    left: 120px;
+}
+
+
+.titulo-meias {
+    position: relative;
+    top: 355px;
+    left: 120px;
+
+}
+
+.titulo-regata {
+    position: relative;
+    top: 355px;
+    left: 400px;
+}
+
+.titulo-shoes {
+    position: relative;
+    left: 400px;
+    top: 555px;
+}
+
+.ver-mais {
+    margin-top: 1px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #00ff08;
+    background-color: #00ff08;
+    border-radius: 5px;
+    position: absolute;
+    top: 585px;
+    left: 225px;
+
+}
+
+.mascara-modal {
+    visibility: hidden;
+    transition: 1s linear;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: (109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%)
+}
 
 
 
@@ -109,17 +260,47 @@ h3::first-letter{color: aliceblue;}
 
 
 
-a:hover {color: aliceblue;    
-font-size: 30px;
-color: #d1e8dc;}
-
-a:visited {color: rebeccapurple;}
-a:active {color: #0fed16;}
-img:hover {scale: 1.1;}
-button:hover {background-color: white;}
-button:active {color: #0fed16}
 
 
+h1::first-letter {
+    color: aliceblue;
+}
+
+h2::first-letter {
+    color: aliceblue;
+}
+
+h3::first-letter {
+    color: aliceblue;
+}
+
+
+.titulo-shoes:hover {width: 230px;}
+
+
+a:hover {
+    color: rgb(57, 130, 74);
+    transition: color 0.2s ease-in-out;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: #00ff08;
+}
+
+
+.button-header:hover {
+    background-color: rgb(57, 130, 74);
+    color: aliceblue;
+    transition: color 0.2s ease-in-out;
+}
+
+.button-header:active {
+    color: #0fed16
+}
 
 
 
